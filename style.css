@@ -27,4 +27,10 @@ html {
   background-color: #fff;
 }
 
+.floating-bg 
+{
+  width: 70rem;
+  height: 70rem;
+  background-color: rgb(50, 231, 255, .8);
+}
 /*End of Section 1 */
