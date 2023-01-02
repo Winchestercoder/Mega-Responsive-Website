@@ -34,6 +34,8 @@ html {
   height: 70rem;
   background-color: rgb(50, 231, 255, .8);
   position: absolute;
+  top: 15%;
+  left: calc(50% - 35rem);
 
 }
 /*End of Section 1 */
