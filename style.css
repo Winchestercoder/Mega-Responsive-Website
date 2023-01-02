@@ -37,7 +37,7 @@ html {
   top: 15%;
   left: calc(50% - 35rem);
   border-radius: 45%;
-
+  animation: rotate 30s;
 }
 
 .floating-bg::before
@@ -50,6 +50,7 @@ html {
   top: 0;
   left: 0;
   border-radius: 40%;
+  animation: rotate 30s;
 }
 
 @keyframes rotate {
