@@ -88,4 +88,10 @@ body
   width: 1.5rem;
   word-wrap: break-word;
 }
+
+.navbar-link:hover
+{
+  width: 15rem;
+  background-color: rgba(255, 255, 255, .2);
+}
 /*End of Section 1 */
