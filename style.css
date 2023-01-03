@@ -30,12 +30,12 @@ html {
 
 .floating-bg 
 {
-  width: 70rem;
-  height: 70rem;
+  width: 40vw;
+  height: 40vw;
   background-color: rgb(50, 231, 255, .8);
   position: absolute;
   top: 15%;
-  left: calc(50% - 35rem);
+  left: calc(50% - 20vw);
   border-radius: 45%;
   animation: rotate 30s;
 }
