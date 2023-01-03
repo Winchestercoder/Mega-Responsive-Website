@@ -69,4 +69,10 @@ body
     transform: rotate(360deg);
    }
 }
+
+.navbar
+{
+  position: relative;
+  z-index: 20;
+}
 /*End of Section 1 */
