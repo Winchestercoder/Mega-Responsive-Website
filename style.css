@@ -17,6 +17,11 @@
 html {
   font-size: 62.5%;
 }
+
+body
+{
+  overflow-x: hidden;
+}
 /* End of Common Styles */
 
 /* Section 1 */
@@ -30,14 +35,14 @@ html {
 
 .floating-bg 
 {
-  width: 40vw;
-  height: 40vw;
+  width: 150vw;
+  height: 150vw;
   background-color: rgb(50, 231, 255, .8);
   position: absolute;
-  top: 15%;
-  left: calc(50% - 20vw);
+  top: -125vw;
+  left: calc(50% - 75vw);
   border-radius: 45%;
-  animation: rotate 30s;
+  animation: rotate 30s infinite;
 }
 
 .floating-bg::before
@@ -50,7 +55,7 @@ html {
   top: 0;
   left: 0;
   border-radius: 40%;
-  animation: rotate 30s;
+  animation: rotate 30s infinite;
 }
 
 @keyframes rotate {
