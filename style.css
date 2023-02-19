@@ -1,4 +1,5 @@
 /* Common styles */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *
@@ -101,7 +102,7 @@ body
 .section-1-heading
 {
   font-size: 8rem;
-  font-family: 'Monoton', 'cursive';
+  font-family: 'Righteous', 'bold';
   position: absolute;
   top: 18vw;
   left: 50%;
