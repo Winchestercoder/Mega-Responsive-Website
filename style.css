@@ -125,4 +125,10 @@ body
   left: 50%;
   transform: translateX(-50%);
 }
+
+.logo i 
+{
+  font-size: 15rem;
+  color: rgba(50, 231, 255, 0.8)
+}
 /*End of Section 1 */
