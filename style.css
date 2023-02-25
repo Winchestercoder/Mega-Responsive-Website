@@ -146,7 +146,8 @@ body
 
 .section-heading
 {
-  
+  font-size: 10rem;
+  font-weight: bold;
 }
 
 .customer-img
