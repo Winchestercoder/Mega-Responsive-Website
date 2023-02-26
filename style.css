@@ -164,7 +164,9 @@ body
 
 .customer
 {
-  
+  width: 35rem;
+  height: 50rem;
+  background-color: #eee;
 }
 
 .customer-img
