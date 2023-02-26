@@ -178,7 +178,7 @@ body
 
 .customer:first-child
 {
-  
+  align-self: flex-end;
 }
 
 .customer-img
