@@ -150,6 +150,7 @@ body
   font-weight: bold;
   text-transform: uppercase;
   color: #999;
+  text-align: center;
 }
 
 .customer-img
@@ -158,6 +159,7 @@ body
   height: 10rem;
   object-fit: cover;
 }
+
 
 
 /*End of Section 2 */
