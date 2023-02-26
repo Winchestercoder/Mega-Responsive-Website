@@ -152,6 +152,7 @@ body
   color: #999;
   text-align: center;
   opacity: .1;
+  text-shadow: 2rem 2rem 4rem #aaa;
 }
 
 .customer-img
