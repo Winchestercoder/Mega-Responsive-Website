@@ -24,13 +24,14 @@ html {
 }
 
 .section-heading {
+  padding-top: 5rem;
   font-size: 10rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #4f2f0c;
   text-align: center;
-  opacity: 0.1;
-  text-shadow: 2rem 2rem 4rem #aaa;
+  opacity: 0.7;
+  text-shadow: 3rem 3rem 5rem #aaa;
 }
 /* End of Common Styles */
 
@@ -38,14 +39,14 @@ html {
 .section-1 {
   width: 100%;
   height: 100vh;
-  background-color: #fff;
+  background-color: #9c866a;
   position: relative;
 }
 
 .floating-bg {
   width: 150vw;
   height: 150vw;
-  background-color: rgba(50, 231, 255, 0.8);
+  background-color: #665541;
   position: absolute;
   top: -125vw;
   left: calc(50% - 75vw);
@@ -57,7 +58,7 @@ html {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: rgba(50, 231, 255, 0.1);
+  background-color: rgba(98, 55, 14, 0.746);
   position: absolute;
   top: 0;
   left: 0;
@@ -87,7 +88,7 @@ html {
   font-size: 2.2rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
-  color: #fff;
+  color: #dbc1a4;
   width: 1.5rem;
   word-wrap: break-word;
   text-align: center;
@@ -102,14 +103,14 @@ html {
 
 .section-1-heading {
   font-size: 8rem;
-  font-family: "Concert One";
+  font-family: "Righteous";
   position: absolute;
   top: 18vw;
   left: 50%;
   transform: translateX(-50%);
   text-shadow: 0.3rem 0.3rem 0.3rem #888;
-  color: #fff;
-  background-color: #fff;
+  color: #1e190f;
+  background-color: #e5ccb4;
   width: 85rem;
   text-align: center;
   padding: 0.8rem 1.6rem;
@@ -125,8 +126,8 @@ html {
 }
 
 .logo i {
-  font-size: 15rem;
-  color: rgba(50, 231, 255, 0.8);
+  font-size: 20rem;
+  color: rgba(123, 79, 39, 0.8);
   text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem 0.2rem #ddd;
 }
 /* End of Section 1 */
@@ -138,6 +139,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: #c8b895;
 }
 
 .customers-wrapper {
@@ -150,7 +152,7 @@ html {
 .customer {
   width: 35rem;
   height: 50rem;
-  background-color: #eee;
+  background-color: #f4ead6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,7 +163,7 @@ html {
 }
 
 .customer:hover {
-  box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
+  box-shadow: 2rem 2rem 3rem #b2b2b2, -2rem -2rem 3rem #d0d0d0;
 }
 
 .customer:first-child {
@@ -174,7 +176,7 @@ html {
 
 .fa-quote-left {
   font-size: 4rem;
-  color: #f08e0f;
+  color: #734810;
 }
 
 .customer-text {
@@ -189,7 +191,7 @@ html {
 
 .customer-rating i {
   font-size: 2rem;
-  color: #f08e0f;
+  color: #57360a;
 }
 
 .customer-img {
