@@ -216,6 +216,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
   padding: 5rem 0;
+  background-color: #97815a;
 }
 
 .team-wrapper {
@@ -372,7 +373,7 @@ html {
 
 .form-img {
   width: 55rem;
-  background-color: rgba(50, 231, 255, 0.8);
+  background-color: rgba(117, 74, 36, 0.8);
   padding: 5rem;
   opacity: 0.8;
   box-shadow: -3rem 3rem 4rem #aaa;
