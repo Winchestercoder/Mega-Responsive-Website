@@ -375,6 +375,7 @@ html {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: #c4aa86;
 }
 
 .form-container {
